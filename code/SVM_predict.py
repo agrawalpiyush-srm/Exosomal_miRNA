@@ -22,7 +22,7 @@ X_test, y_test = data_test[:, :-1], data_test[:, -1]
 
 ##### Load the model ################
 
-loaded_model = joblib.load('TNBC_finalized_model.sav')
+loaded_model = joblib.load('BRCA_model.sav')
 
 # Make predictions on the test set
 y_pred_prob = loaded_model.predict_proba(X_test)[:, 1]
