@@ -13,7 +13,7 @@ p <- dotplot(ego2, x = "GeneRatio", color = "p.adjust", showCategory = 10, font.
 p <- p + theme(axis.text.y = element_text(size = 13, face = "bold"))
 
 # Save the plot
-ggsave("Image.png", plot = p, units="in", width=8, height=6, dpi=600)
+ggsave("Gene_Ontology.png", plot = p, units="in", width=8, height=6, dpi=600)
 
 # Save the enriched GO results to a CSV file
 write.csv(ego2, file = "file")
