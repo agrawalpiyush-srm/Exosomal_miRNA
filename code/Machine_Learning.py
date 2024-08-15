@@ -23,13 +23,13 @@ from sklearn.metrics import roc_auc_score
 ###### Loading datasets ########
 
 # Load train dataset
-train_url = '/Users/piyushagrawal/Desktop/ml_work/caf_train'
+train_url = '/Users/piyushagrawal/Desktop/ml_work/train.csv'
 dataframe_train = pd.read_csv(train_url, header=None)
 data_train = dataframe_train.values
 X_train, y_train = data_train[:, :-1], data_train[:, -1]
 
 # Load test dataset
-test_url = '/Users/piyushagrawal/Desktop/ml_work/caf.csv'
+test_url = '/Users/piyushagrawal/Desktop/ml_work/test.csv'
 dataframe_test = pd.read_csv(test_url, header=None)
 data_test = dataframe_test.values
 X_test, y_test = data_test[:, :-1], data_test[:, -1]
@@ -61,4 +61,4 @@ Round predicted probabilities to 4 decimal places
 results_df['Predicted_Probabilities'] = results_df['Predicted_Probabilities'].round(3)
 
 Save DataFrame to TSV
-results_df.to_csv("/Users/piyushagrawal/Downloads/CVD_cancer/Upregulated_analysis/Common_Analysis/ML_work/MI/roc/svm_indep_result", sep='\t', index=False)
+results_df.to_csv("SVM_indep_result", sep='\t', index=False)
