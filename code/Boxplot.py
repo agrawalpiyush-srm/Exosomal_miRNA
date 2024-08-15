@@ -15,4 +15,4 @@ ax.set_ylabel("3'UTR GC Content(%)",fontsize=15,weight='bold')
 ax.set_xlabel("Cancer Type",fontsize=15,weight='bold')
 ax.figure.set_size_inches(5,5)
 
-plt.savefig('/Users/agrawalp4/Downloads/navami/brca_project/piyush/Analysis_Based_Betweeness_Centrality/revision_comments/matched_samples_topnet_identifictaion/validation/Depmap/rep/Her2_Rep', dpi=600)
+plt.savefig('Boxplot_Ouput.png', dpi=600)
