@@ -1,5 +1,8 @@
 # Exosomal_miRNA
-This project aims to characterize the role of exosomal miRNAs in cancer metastasis
+This project aims to characterize the role of exosomal miRNAs in cancer metastasis.
+
+In this study, we aimed to characterize the role of exomiRs in influencing the pre-metastatic niche (PMN) across 7 tumor types. We extracted high-confidence exomiRs (Log FC >= 2 in exosomes relative to control) and their targets (experimentally identified and targeted by at least 2 exomiRs) in 4 cancer-derived cell lines as well as directly from patient’s. Subsequently, we identified enriched pathways and selected the top 100 high-confidence exomiR targets based on the frequency of their appearance in the enriched pathways. These top 100 targets were consistently used throughout the analysis.
+
 
 
 
