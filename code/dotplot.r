@@ -2,7 +2,7 @@
 library(ggplot2)
 
 # Read the data from the CSV file using the correct separator
-data <- read.csv("input_file.csv", header = TRUE, sep = ",")
+data <- read.csv("dotplot_input_file.csv", header = TRUE, sep = ",")
 
 # Ensure that the column names are correct
 colnames(data) <- c("Subtype", "Method", "OR", "FDR", "Significance", "Enrichment")
