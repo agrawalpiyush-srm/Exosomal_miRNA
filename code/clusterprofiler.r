@@ -2,7 +2,7 @@
 
 library(clusterProfiler)
 library(ggplot2)
-de <- read.csv("list", header = TRUE)                       #### Give Entrez id only and not symbol. Put header as well
+de <- read.csv("gene_list", header = TRUE)                       #### Give Entrez id only and not symbol. Put header as well
 ego <- enrichGO(de$Entrezid, OrgDb = "org.Hs.eg.db", ont="BP", readable = TRUE, minGSSize = 10, maxGSSize = 500, keyType="SYMBOL")
 ego2 <- simplify(ego, cutoff=0.8, by="p.adjust", select_fun=min, measure = "Wang")
 
