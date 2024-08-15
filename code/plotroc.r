@@ -2,7 +2,7 @@
 library(plotROC)
 library(pROC)
 library(ROCR)
-data=read.table("input_file",header=T,sep="\t")
+data=read.table("roccurve_input_file",header=T,sep="\t")
 
 caf.act <- prediction(data$CAF_Pred, data$CAF_Actual)
 perf.cafact <- performance(caf.act, 'tpr', 'fpr')
