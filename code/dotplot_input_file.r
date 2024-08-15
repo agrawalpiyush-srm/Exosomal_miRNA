@@ -1,0 +1,15 @@
+Subtype	Method	OR	FDR	significance	enrichment
+BRCA	AME_vs_HD	2.53	0.0008	Significant	Enriched
+COAD	AME_vs_HD	1.6	0.1	Non-Significant	Enriched
+ESCA	AME_vs_HD	1.9	0.02	Significant	Enriched
+KIRC	AME_vs_HD	2.53	0.0008	Significant	Enriched
+LIHC	AME_vs_HD	2.53	0.0008	Significant	Enriched
+LUAD	AME_vs_HD	1	0.85	Non-Significant	Enriched
+PAAD	AME_vs_HD	3.23	8.77E-06	Significant	Enriched
+BRCA	MME_vs_AME	3.89	3.63E-06	Significant	Enriched
+COAD	MME_vs_AME	1.62	1.80E-01	Non-Significant	Enriched
+ESCA	MME_vs_AME	2.68	1.00E-03	Significant	Enriched
+KIRC	MME_vs_AME	2.68	1.00E-03	Significant	Enriched
+LIHC	MME_vs_AME	3.63	1.42E-05	Significant	Enriched
+LUAD	MME_vs_AME	1.62	1.80E-01	Non-Significant	Enriched
+PAAD	MME_vs_AME	2.91	5.00E-04	Significant	Enriched
